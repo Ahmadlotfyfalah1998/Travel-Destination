@@ -1,17 +1,18 @@
+import Tour from "./tour/Tour";
+
 function Tours(props){
+    
 return (
 <>
-<div>
-<h2>{props.name}</h2>
-<img  src={props.image}/>
+
+<Tour    name={props.name}  image={props.image} id={props.id}/>
 
 
 
 
 
 
-<hr style={{"border-top":"3px solid red"}}/>
-</div>
+
 
 </>
 
@@ -20,3 +21,8 @@ return (
 
 }
 export default Tours;
+
+
+
+//<h2>{props.name}</h2>
+//<img  src={props.image}/>
